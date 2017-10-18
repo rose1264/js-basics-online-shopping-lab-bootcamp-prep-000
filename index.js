@@ -54,7 +54,7 @@ function total() {
       total += cart[i][item]
     }
   }
-  
+return total
 }
 
 
