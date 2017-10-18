@@ -48,6 +48,7 @@ function viewCart() {
 
 function total() {
   // write your code here
+debugger
   var total=0;
   for(var i=0;i<cart.lentgh;i++){
     for (var item in cart[i]){
