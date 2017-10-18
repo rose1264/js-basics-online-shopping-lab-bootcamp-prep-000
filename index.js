@@ -48,14 +48,11 @@ function viewCart() {
 
 function total() {
   // write your code here
-debugger
-  var total=0;
-  for(var i=0;i<cart.lentgh;i++){
-    for (var item in cart[i]){
-      total += cart[i][item];
-    }
+  var total = 0;
+  for(var i=0;i<n;i++){
+    var keys = Object.keys(cart[i])
+    return `total += ${cart[i][keys]}`
   }
-  return total
 }
 
 
