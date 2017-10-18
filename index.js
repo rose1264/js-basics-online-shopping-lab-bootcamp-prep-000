@@ -60,7 +60,10 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  
+  var itemInCart = true;
+  if(!itemInCart){
+    console.log("That item is not in your cart")
+  }
 }
 
 function placeOrder(cardNumber) {
