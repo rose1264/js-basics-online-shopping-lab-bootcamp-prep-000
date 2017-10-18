@@ -51,7 +51,7 @@ function total() {
   var total = 0;
   for(var i=0;i<cart.length;i++){
     var keys = Object.keys(cart[i]);
-    
+
   }
   return `${total} = ${total} + ${cart[i][keys]}`;
 }
