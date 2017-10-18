@@ -50,8 +50,8 @@ function total() {
   // write your code here
   var total = 0;
   for(var i=0;i<cart.length;i++){
-    var keys = Object.keys(cart[i])
-    return `total += ${cart[i][keys]}`
+    var keys = Object.keys(cart[i]);
+    return `total += ${cart[i][keys]}`;
   }
 }
 
