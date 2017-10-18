@@ -39,7 +39,8 @@ function viewCart() {
         items.push(item + " at $" + cart[i][item])
       }
     }
-    var lastItem = "cart[n]+' at $' + cart[n][item]";
+    var lastItemKey = Object.keys(cart[n])
+    var lastItem = `${lastItemKey} at $${cart[n][lastItemKey]}`;
     console.log("In your cart, you have " + items.join(", ") + ", and " + lastItem +".");
   }
 
